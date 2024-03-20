@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+
 import Button from 'components/Button';
 import LoadingLogo from 'components/LoadingLogo';
 import Text, { TextLight } from 'components/Text';
@@ -11,6 +12,7 @@ import { ReactComponent as IconSearch } from 'theme/icons/search.svg';
 import { ReactComponent as IconTimesCircle } from 'theme/icons/times-circle.svg';
 import { ReactComponent as IconTrash } from 'theme/icons/trash.svg';
 import { ReactComponent as IconUser } from 'theme/icons/user.svg';
+import SearchBar from 'components/SearchBar/SearchBar';
 
 const Container = styled.main`
   margin: 40px auto;
@@ -106,6 +108,11 @@ export default function Playground() {
         <IconTrash />
         <IconTimesCircle />
         <IconUser />
+      </Demo>
+
+      <TitleComponent>SearchBar</TitleComponent>
+      <Demo>
+        <SearchBar />
       </Demo>
     </Container>
   );

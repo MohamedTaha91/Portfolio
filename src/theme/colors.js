@@ -7,7 +7,7 @@ const colors = css`
   --colors-cosmos: #ffdbde;
   --colors-geyser: #cbd3dc;
 
-  --colors-bayoux: #525f7f;
+  --colors-bayoux: #525f7f;x
   --colors-lynch: #617798;
   --colors-mischka: #e8ecee;
   --colors-catskillWhite: #eaf0f6;
